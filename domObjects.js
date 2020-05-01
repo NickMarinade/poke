@@ -1,0 +1,12 @@
+export const mainScreen = document.querySelector('.main-screen');
+export const pokeName = document.querySelector('.poke-name');
+export const pokeId = document.querySelector('.poke-id');
+export const pokeFrontImage = document.querySelector('.poke-front-image');
+export const pokeBackImage = document.querySelector('.poke-back-image');
+export const pokeTypeOne = document.querySelector('.poke-type-one');
+export const pokeTypeTwo = document.querySelector('.poke-type-two');
+export const pokeWeight = document.querySelector('.poke-weight');
+export const pokeHeight = document.querySelector('.poke-height');
+export const pokeListItems = document.querySelectorAll('.list-item');
+export const leftButton = document.querySelector('.left-button');
+export const rightButton = document.querySelector('.right-button');
