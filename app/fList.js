@@ -1,5 +1,5 @@
 import UI from './functions.js'
-import * as dom from '/domObjects.js';
+import * as dom from '../domObjects.js';
 
 let u2 = new UI()
 const fetchList = url => {
