@@ -1,6 +1,6 @@
-import * as dom from '/domObjects.js';
+import * as dom from '../domObjects.js';
 
-   class UI {
+class UI {
 
     TYPES = [
         'normal', 'fighting', 'flying',

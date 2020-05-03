@@ -1,7 +1,8 @@
 import UI from './functions.js'
-import * as dom from '/domObjects.js';
+import * as dom from '../domObjects.js';
 
- let u1 = new UI()
+let u1 = new UI();
+
 const fetchPokemon = id => {
     fetch(`https://pokeapi.co/api/v2/pokemon/${id}`)
         .then(res => res.json())

@@ -1,4 +1,4 @@
-import * as dom from '/domObjects.js';
+import * as dom from './domObjects.js';
 import { fetchPokemon } from './app/fPokemon.js'
 import { handleLeftButtonClick, handleRightButtonClick } from './app/fList.js'
 
